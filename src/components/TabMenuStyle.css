@@ -23,10 +23,10 @@
 }
 
 .content {
-    background-color: #b9b9b9;
+    background-color: #b9b9b900;
     padding: 3rem;
     width: 1000px;
-    border: 2px solid green;
+    border: 2px solid rgba(0, 128, 0, 0.212);
     margin: 1rem;
     display: none;
     border-radius: 1rem;
@@ -34,4 +34,13 @@
 
 .content.active {
     display: block;
+}
+
+.contentsArea {
+    display: flex;
+    justify-content: center;
+}
+
+.content p{
+    line-height: 2;
 }
