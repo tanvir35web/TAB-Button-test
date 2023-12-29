@@ -1,0 +1,37 @@
+.tabContainer {
+    background-color: #007425;
+    color: white;
+    padding: 0rem 2rem;
+}
+
+.tabContainer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabContainer ul li {
+    list-style: none;
+    padding: 1rem;
+    cursor: pointer;
+
+}
+.tabContainer ul li:hover {
+    background-color: rgba(0, 0, 0, 0.284);
+}
+
+.content {
+    background-color: #b9b9b9;
+    padding: 3rem;
+    width: 1000px;
+    border: 2px solid green;
+    margin: 1rem;
+    display: none;
+    border-radius: 1rem;
+}
+
+.content.active {
+    display: block;
+}
